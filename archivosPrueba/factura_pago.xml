@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<Comprobante 
+        version="3.2"
+        sello=""
+        serie="A"
+        folio="100"
+        fecha="2016-12-05T00:07:30"
+        formaDePago="PAGO EN UNA SOLA EXHIBICION"
+        noCertificado="20001000000100005867"
+        certificado="MIIEdDCCA1ygAwIBAgIUMjAwMDEwMDAwMDAxMDAwMDU4NjcwDQYJKoZIhvcNAQEFBQAwggFvMRgwFgYDVQQDDA9BLkMuIGRlIHBydWViYXMxLzAtBgNVBAoMJlNlcnZpY2lvIGRlIEFkbWluaXN0cmFjacOzbiBUcmlidXRhcmlhMTgwNgYDVQQLDC9BZG1pbmlzdHJhY2nDs24gZGUgU2VndXJpZGFkIGRlIGxhIEluZm9ybWFjacOzbjEpMCcGCSqGSIb3DQEJARYaYXNpc25ldEBwcnVlYmFzLnNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEjAQBgNVBAcMCUNveW9hY8OhbjEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTIwMAYJKoZIhvcNAQkCDCNSZXNwb25zYWJsZTogSMOpY3RvciBPcm5lbGFzIEFyY2lnYTAeFw0xMjA3MjcxNzAyMDBaFw0xNjA3MjcxNzAyMDBaMIHbMSkwJwYDVQQDEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEKRMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxKTAnBgNVBAoTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSUwIwYDVQQtExxBQUEwMTAxMDFBQUEgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFVuaWRhZCAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2TTQSPONBOVxpXv9wLYo8jezBrb34i/tLx8jGdtyy27BcesOav2c1NS/Gdv10u9SkWtwdy34uRAVe7H0a3VMRLHAkvp2qMCHaZc4T8k47Jtb9wrOEh/XFS8LgT4y5OQYo6civfXXdlvxWU/gdM/e6I2lg6FGorP8H4GPAJ/qCNwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEATxMecTpMbdhSHo6KVUg4QVF4Op2IBhiMaOrtrXBdJgzGotUFcJgdBCMjtTZXSlq1S4DG1jr8p4NzQlzxsdTxaB8nSKJ4KEMgIT7E62xRUj15jI49qFz7f2uMttZLNThipunsN/NF1XtvESMTDwQFvas/Ugig6qwEfSZc0MDxMpKLEkEePmQwtZD+zXFSMVa6hmOu4M+FzGiRXbj4YJXn9Myjd8xbL/c+9UIcrYoZskxDvMxc6/6M3rNNDY3OFhBK+V/sPMzWWGt8S1yjmtPfXgFs1t65AZ2hcTwTAuHrKwDatJ1ZPfa482ZBROAAX1waz7WwXp0gso7sDCm2/yUVww=="
+        subTotal="1000.00"
+        descuento="0.00"
+        total="1160.00"
+        metodoDePago="Contado"
+        tipoDeComprobante="ingreso"
+        tipoCambio="1.0000"
+        moneda="MXN"
+        lugarExpedicion="MONTERREY"
+    >
+    
+	    <Emisor
+	        rfc="AAA010101AAA"
+	        nombre="ACCEM SERVICIOS EMPRESARIALES SC"
+	        >
+	                
+		    <DomicilioFiscal
+		        calle="JUAREZ"
+		        noExterior="100"
+		        colonia="CENTRO"
+		        localidad="MONTERREY"
+		        municipio="MONTERREY"
+		        estado="NUEVO LEON"
+		        pais="MEXICO"
+		        codigoPostal="01234" />
+		    <ExpedidoEn
+		        calle="HIDALGO"
+		        noExterior="240" 
+		        colonia="LAS CUMBRES 3 SECTOR"
+		        localidad="MONTERREY"
+		        municipio="MONTERREY"
+		        estado="NUEVO LEON"
+		        pais="MEXICO"
+		        codigoPostal="64610" />
+		    <RegimenFiscal Regimen="MI REGIMEN" />
+	    </Emisor>
+              
+        <Receptor
+            rfc="SOHM7509289MA"
+            nombre="MIGUEL ANGEL SOSA HERNANDEZ"
+            >
+            <Domicilio
+                calle="PERIFERICO"
+                noExterior="1024"
+                noInterior="B"
+                colonia="SAN ANGEL"
+                localidad="CIUDAD DE MEXICO"
+                municipio="ALVARO OBREGON"
+                estado="DISTRITO FEDERAL"
+                pais="MEXICO"
+                codigoPostal="23010" />
+        </Receptor>
+                
+        <Conceptos>
+        	<Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD1" 
+                descripcion="PRODUCTO PRUEBA 1" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD2" 
+                descripcion="PRODUCTO PRUEBA 2" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD3" 
+                descripcion="PRODUCTO PRUEBA 3" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD4" 
+                descripcion="PRODUCTO PRUEBA 4" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD5" 
+                descripcion="PRODUCTO PRUEBA 5" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD6" 
+                descripcion="PRODUCTO PRUEBA 6" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD7" 
+                descripcion="PRODUCTO PRUEBA 7" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD8" 
+                descripcion="PRODUCTO PRUEBA 8" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD9" 
+                descripcion="PRODUCTO PRUEBA 9" 
+                valorUnitario="100.00" 
+                importe="100.00">
+            </Concepto>
+            <Concepto 
+                cantidad="1" 
+                unidad="PIEZA" 
+                noIdentificacion="COD10"
+                 descripcion="PRODUCTO PRUEBA 10" 
+                 valorUnitario="100.00" 
+                 importe="100.00">
+             </Concepto>
+        </Conceptos>
+        
+        <Impuestos totalImpuestosTrasladados="160.00">
+            <Traslados>
+                <Traslado impuesto="IVA" tasa="16.00" importe="160.00" />
+            </Traslados>
+        </Impuestos>
+    </Comprobante>
