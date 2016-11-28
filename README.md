@@ -5,9 +5,9 @@ Para probar el código es necesario seguir los siguientes pasos:
 
 1.- Ejecutar cada una de las entidades del proceso  (PAC, SAT, HSM) con los siguientes procesos (Cada uno en una terminal diferente)
 	
-python pac.py
-python hsm.py
-python main.py
+	python pac.py
+	python hsm.py
+	python main.py
 
 2.- Correr el cliente para que inicie el proceso de timbrado:
 
