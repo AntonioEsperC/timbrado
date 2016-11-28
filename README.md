@@ -17,8 +17,12 @@ Para probar el código es necesario seguir los siguientes pasos:
 	b) python cliente_falso.py
 	Este comando ejecuta el proceso con un sello digital inválido.
 
-*En caso de que se quieran hacer pruebas con diferentes archivos para validar el formato del XML, se deberá cambiar el nombre del archivo con el que se prueba en el archivo "cliente.py" en la línea 17.
-	factura_correcta.xml -> Factura con formato correcto
-	factura_fecha.xml    ->	Factura con fecha incorrecta
-	factura_moneda.xml   ->	Factura con moneda incorrecta
-	factura_pago.xml     -> Factura con metodo de pago incorrecto
+*En caso de que se quieran hacer pruebas con diferentes archivos para validar el formato del XML, se deberá cambiar el nombre del archivo con el que se prueba en el archivo "cliente.py" en la línea 17
+
+factura_correcta.xml -> Factura con formato correcto
+
+factura_fecha.xml    ->	Factura con fecha incorrecta
+
+factura_moneda.xml   ->	Factura con moneda incorrecta
+
+factura_pago.xml     -> Factura con metodo de pago incorrecto
